@@ -1,0 +1,3 @@
+class IChemistryComputer:
+    def compute(self):
+        ...

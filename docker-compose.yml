@@ -1,0 +1,15 @@
+services:
+  db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'fifa_squad_builder'
+      MYSQL_USER: 'milosz'
+      MYSQL_PASSWORD: 'milosz'
+      MYSQL_ROOT_PASSWORD: 'milosz'
+    ports:
+      - '3369:3306'
+    expose:
+      - '3369'
+#    volumes:
+#      - ./docker/postgres/:/docker-entrypoint-initdb.d/

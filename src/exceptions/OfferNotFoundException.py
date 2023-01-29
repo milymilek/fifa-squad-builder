@@ -1,0 +1,2 @@
+class OfferNotFoundException(Exception):
+    pass
