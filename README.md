@@ -1,1 +1,1 @@
-Object oriented programming course CRUD app of FIFA Ultimate Team squad management
+Object oriented programming course CRUD app project of FIFA Ultimate Team squad management
